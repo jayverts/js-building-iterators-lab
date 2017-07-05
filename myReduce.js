@@ -1,7 +1,7 @@
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce for more details
 // Don't worry about initialValue at first. You can always add it in later.
 
-function myReduce(arr, callback) {
+function myReduce(arr, callback, accelerator) {
 var reduces = arr.reduce(function callback(previous, current) {
 return previous;
 });
