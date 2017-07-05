@@ -14,13 +14,5 @@ function myMap(arr, callback) {
  If you want to check your code, use `index.js`!
 */
 
-
-
-
-for (i<array.length) {
-	acc = callback(acc,a[i],array);
-}
-return acc;
-
 // export this function (you can ignore this for now)
 module.exports = myMap;
