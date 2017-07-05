@@ -1,6 +1,9 @@
-// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map
-
 function myMap(arr, callback) {
+	var maparr = [];
+	for (var i = 0; i<arr.length; i++) {
+		maparr.push(callback(arr[i],i,arr));
+	}
+	return maparr;
 
 //  CODE INSIDE HERE   //
 
@@ -14,8 +17,10 @@ function myMap(arr, callback) {
 
 
 
-
-
+for (i<array.length) {
+	acc = callback(acc,a[i],array);
+}
+return acc;
 
 // export this function (you can ignore this for now)
 module.exports = myMap;
