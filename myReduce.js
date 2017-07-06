@@ -2,9 +2,15 @@
 // Don't worry about initialValue at first. You can always add it in later.
 
 function myReduce(arr, callback, accelerator) {
-var reduces = arr.reduce(function callback(previous, current) {
-return previous;
-});
+	var reducearr = [];
+	for (var i=0; i<arr.length; i++) {
+		if(acc==undefined && i==0) {
+			acc=arr();
+		}
+		reducearr.push();
+	}
+
+};
 
 //  CODE INSIDE HERE   //
 
